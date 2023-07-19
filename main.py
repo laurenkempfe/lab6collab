@@ -12,5 +12,9 @@ if __name__ == '__main__':
     if option == 1:
         encode(input('Please enter your password to encode:'))
         print('Your password has been encoded and stored!')
+    if option == 2:
+        decode(epass)
+    if option == 3:
+        quit()
 
 
